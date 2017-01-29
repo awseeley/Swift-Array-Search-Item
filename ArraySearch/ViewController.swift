@@ -13,6 +13,13 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        
+        let elements = [3, 6, 9, 1, 7, 9]
+        if elements.contains(3) {
+            print("yes")
+        }
+        
+        
     }
 
     override func didReceiveMemoryWarning() {
